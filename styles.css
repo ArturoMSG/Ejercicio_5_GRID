@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   background-color: gray;
+
+}
+body {
+
+   
+}
+ .contenedor{
+    width: 740px;
+    height: 540px;
+    display: grid;
+    grid-template-columns: 300px 40px 60px 40px 300px;
+    grid-template-rows: 200px 40px 60px 40px 200px;    
+ }
+ .caja1{
+    background: red;
+    grid-column-start: 1; 
+    grid-column-end: 2; 
+    grid-row-start: 1; 
+    grid-row-end: 2;
+ }
+ 
+.caja2{
+   background:white;
+   grid-column-start: 2;
+   grid-column-end: 3; 
+   grid-row-start: 1; 
+   grid-row-end: 2;
+}
+.caja3{
+    background: blue;
+    grid-column-start: 3; 
+    grid-column-end: 4; 
+    grid-row-start: 1; 
+    grid-row-end: 2;
+ }
+ .caja4{
+    background: white;
+    grid-column-start: 4; 
+    grid-column-end: 5; 
+    grid-row-start: 1; 
+    grid-row-end: 2;
+}
+
+.caja5{
+    background: red;
+    grid-column-start: 5; 
+    grid-column-end: 6; 
+    grid-row-start: 1; 
+    grid-row-end: 2;
+ }
+ .caja6{
+    background: white;
+    grid-column-start: 1; 
+    grid-column-end: 3; 
+    grid-row-start: 2; 
+    grid-row-end: 3;
+ }
+ .caja7{
+    background: blue;
+    grid-column-start: 3; 
+    grid-column-end: 4; 
+    grid-row-start: 2; 
+    grid-row-end: 3;
+}
+.caja8{
+    background: white;
+    grid-column-start: 4; 
+    grid-column-end: 6; 
+    grid-row-start: 2; 
+    grid-row-end: 3;
+}
+.caja9{
+    background: blue;
+    grid-column-start: 1; 
+    grid-column-end: 6; 
+    grid-row-start: 3; 
+    grid-row-end: 3;
+}
+.caja10{
+    background: white;
+    grid-column-start: 1; 
+    grid-column-end: 3; 
+    grid-row-start: 4; 
+    grid-row-end: 5;
+ }
+ .caja11{
+    background: blue;
+    grid-column-start: 3; 
+    grid-column-end: 4; 
+    grid-row-start: 4; 
+    grid-row-end: 5;
+}
+.caja12{
+    background: white;
+    grid-column-start: 4; 
+    grid-column-end: 6; 
+    grid-row-start: 4; 
+    grid-row-end: 5;
+}
+
+.caja13{
+    background: red;
+    grid-column-start: 1; 
+    grid-column-end: 2; 
+    grid-row-start: 5; 
+    grid-row-end: 6;
+ }
+ 
+.caja14{
+   background:white;
+   grid-column-start: 2;
+   grid-column-end: 3; 
+   grid-row-start: 5; 
+   grid-row-end: 6;
+}
+.caja15{
+    background: blue;
+    grid-column-start: 3; 
+    grid-column-end: 4; 
+    grid-row-start: ; 
+    grid-row-end: 6;
+ }
+ .caja16{
+    background: white;
+    grid-column-start: 4; 
+    grid-column-end: 5; 
+    grid-row-start: 5; 
+    grid-row-end: 6;
+}
+
+.caja17{
+    background: red;
+    grid-column-start: 5; 
+    grid-column-end: 6; 
+    grid-row-start: 5; 
+    grid-row-end: 6;
+ }
+
